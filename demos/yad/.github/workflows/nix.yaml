@@ -33,6 +33,7 @@ jobs:
         # nix run .#update-ci
         PACKAGE:
           - check-commits
+          - hello-elisa
           - minimal-linux-kernel
           - update-ci
     steps:
